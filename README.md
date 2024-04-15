@@ -1,6 +1,6 @@
 # MongoDB-ReplicaSet
 
-A TP I have to do, must use MongoDB ReplicaSet on docker, can use any language to add CRUD operations.
+A TP I had to do, it must use MongoDB ReplicaSet on Docker, can use any language to add CRUD operations.
 
 ## How to install
 
@@ -28,14 +28,15 @@ docker exec -it mongo1 bash
 Replace `mongo1` with `mongo2` or `mongo3` if you want to connect to the other nodes.
 
 Then, you can connect to the database with the following command :
-``bash
-mongosh --host localhost --port 27017
 
+```bash
+mongosh --host localhost --port 27017
 ```
 
 Then, here's how to do CRUD operations :
 
 ### Creating
+
 ```javascript
 db.users.insertOne({name: "John", age: 25})
 ```
