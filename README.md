@@ -10,10 +10,10 @@ A TP I have to do, must use MongoDB ReplicaSet on docker, can use any language t
 
 ## Scripts
 
-- Run `gradle :run args=create` for creating the `users` collection and adding fake data
-- Run `gradle :run args=delete` for deleting the first user with more than 70 years old
-- Run `gradle :run args=search` for searching all users with more than 30 years old
-- Run `gradle :run args=update` for adding all users 5 years to their age
+- Run `gradle :run --args=create` for creating the `users` collection and adding fake data
+- Run `gradle :run --args=delete` for deleting the first user with more than 70 years old
+- Run `gradle :run --args=search` for searching all users with more than 30 years old
+- Run `gradle :run --args=update` for adding all users 5 years to their age
 
 ## Crud operations with Mongosh
 
